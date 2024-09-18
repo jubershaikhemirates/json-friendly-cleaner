@@ -1,0 +1,27 @@
+{
+  "name": "json-friendly-cleaner",
+  "version": "1.0.0",
+  "description": "A simple library to remove `null` values or any specified value from JSON objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akram898/json-friendly-cleaner.git"
+  },
+  "keywords": [
+    "js",
+    "json",
+    "friendly",
+    "cleaner",
+    "null",
+    "undefined"
+  ],
+  "author": "Ahmed Akram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akram898/json-friendly-cleaner/issues"
+  },
+  "homepage": "https://github.com/Akram898/json-friendly-cleaner#readme"
+}
