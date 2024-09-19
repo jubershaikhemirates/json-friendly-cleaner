@@ -1,7 +1,7 @@
 {
   "name": "json-friendly-cleaner",
-  "version": "1.0.6",
-  "description": "A simple library to remove `null` values or any specified value from JSON objects.",
+  "version": "1.0.9",
+  "description": "Easily remove null, undefined, or any specified values from JSON objects and arrays.",
   "main": "dist/index.js",
   "scripts": {
     "test": "node test.js",
