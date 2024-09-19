@@ -16,9 +16,6 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Remove `null` values](#removing-null-values-from-a-json-object)
-  - [Remove any specified value(s)](#removing-a-specified-value)
-  - [Remove multiple values](#removing-multiple-values)
 
 
 ## Installation
@@ -32,14 +29,15 @@ npm install json-friendly-cleaner
 ## Usage
 Below are examples of how to use the `json-friendly-cleaner` library in your project.
 
+
 ### Removing null values from a JSON object
 
 ```bash
 // ES Module syntax
-import { removeNulls } from '`json-friendly-cleaner`';
+import { removeNulls } from 'json-friendly-cleane`';
 
 // If using CommonJS syntax, use:
-// const { removeNulls } = require('`json-friendly-cleaner`');
+// const { removeNulls } = require('json-friendly-cleaner');
 
 const data = {
     name: "John",
@@ -64,13 +62,12 @@ console.log(cleanedData);
 ```
 
 
+
+
 ### Removing a specific value (e.g., undefined)
 
 ```bash
-import { removeValues } from '`json-friendly-cleaner`';
-
-// If using CommonJS syntax, use:
-// const { removeValues } = require('`json-friendly-cleaner`');
+import { removeValues } from 'json-friendly-cleaner';
 
 const dataWithValues = {
     name: "John",
@@ -90,13 +87,17 @@ console.log(cleanedDataWithValues);
 // }
 
 ```
+
+
+
+
 ### Removing multiple values (e.g., undefined and false)
 
 ```bash
-import { removeValues } from '`json-friendly-cleaner`';
+import { removeValues } from 'json-friendly-cleaner';
 
 // If using CommonJS syntax, use:
-// const { removeValues } = require('`json-friendly-cleaner`');
+// const { removeValues } = require('json-friendly-cleaner');
 
 const multipleValuesData = {
     name: "John",
