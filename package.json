@@ -1,10 +1,12 @@
 {
   "name": "json-friendly-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "A simple library to remove `null` values or any specified value from JSON objects.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/Akram898/json-friendly-cleaner/issues"
   },
-  "homepage": "https://github.com/Akram898/json-friendly-cleaner#readme"
+  "homepage": "https://github.com/Akram898/json-friendly-cleaner#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4"
+  }
 }
